@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0D0B14;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Custom projection contrast utilities */
+.text-high-contrast {
+  color: #FFFFFF !important;
+  font-weight: 700;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0B14;
+}
+::-webkit-scrollbar-thumb {
+  background: #161224;
+  border-radius: 4px;
+  border: 1px solid #9D7BFF;
+}
